@@ -1,0 +1,38 @@
+{
+  "parent": "builtin/entity",
+  "texture_size": [
+    32,
+    32
+  ],
+  "display": {
+    "firstperson_righthand": {
+      "translation": [
+        -2.5,
+        -2.75,
+        -10
+      ]
+    },
+    "thirdperson_righthand": {
+      "translation": [
+        -5.5,
+        -4.5,
+        -6.25
+      ]
+    },
+    "thirdperson_lefthand": {
+      "translation": [
+        5.5,
+        -4.5,
+        6.25
+      ]
+    }
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "pulling": 0
+      },
+      "model": "flintlock_weaponry:item/flintlock_rifle"
+    }
+  ]
+}

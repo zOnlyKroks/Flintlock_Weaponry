@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " FB",
+    "IGP",
+    "  P"
+  ],
+  "key": {
+    "P": {
+      "tag": "minecraft:stick"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "item": "flintlock_weaponry:ammo"
+    },
+    "F": {
+      "item": "minecraft:flint_and_steel"
+    }
+  },
+  "result": {
+    "item": "flintlock_weaponry:flintlock_pistol",
+    "count": 1
+  }
+}
+

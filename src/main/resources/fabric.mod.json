@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "flintlock_weaponry",
+  "version": "${version}",
+  "name": "Flintlock_weaponry",
+  "description": "",
+  "authors": [
+    "zOnlyKroks",
+    "Neuromancer"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "de.zonlykroks.flintlock_weaponry.flintlock_weaponry.client.FlintlockClient"
+    ],
+    "main": [
+      "de.zonlykroks.flintlock_weaponry.flintlock_weaponry.Flintlock"
+    ]
+  },
+  "mixins": [
+    "flintlock_weaponry.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "1.20.1"
+  }
+}

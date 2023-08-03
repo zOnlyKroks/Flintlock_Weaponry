@@ -1,0 +1,15 @@
+{
+  "pistol_fire": {
+    "subtitle": "subtitles.flintlock_weaponry.pistol_fire",
+    "sounds": [
+      "flintlock_weaponry:pistol_fire"
+    ]
+  },
+  "pistol_reload": {
+    "subtitle": "subtitles.flintlock_weaponry.pistol_reload",
+    "sounds": [
+      "flintlock_weaponry:pistol_reload"
+    ]
+  }
+}
+

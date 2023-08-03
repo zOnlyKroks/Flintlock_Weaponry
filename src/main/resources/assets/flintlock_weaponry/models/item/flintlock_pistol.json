@@ -1,0 +1,64 @@
+{
+  "parent": "builtin/entity",
+  "texture_size": [
+    32,
+    32
+  ],
+  "display": {
+    "firstperson_righthand": {
+      "translation": [
+        -2.5,
+        -2.75,
+        -4.75
+      ]
+    },
+    "firstperson_lefthand": {
+      "translation": [
+        -2.5,
+        -2.75,
+        4.75
+      ]
+    },
+    "thirdperson_righthand": {
+      "translation": [
+        -5.5,
+        -4.5,
+        -1
+      ]
+    },
+    "thirdperson_lefthand": {
+      "translation": [
+        5.5,
+        -4.5,
+        1
+      ]
+    },
+    "gui": {
+      "rotation": [
+        -90,
+        120,
+        90
+      ],
+      "translation": [
+        -4.5,
+        -4.5,
+        0
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        -90,
+        120,
+        90
+      ]
+    }
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "pulling": 0
+      },
+      "model": "flintlock_weaponry:item/flintlock_pistol"
+    }
+  ]
+}
